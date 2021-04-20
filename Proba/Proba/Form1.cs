@@ -19,7 +19,9 @@ namespace Proba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pozdrav!!!");
+            string ime;
+            ime = textBox1.Text;
+            MessageBox.Show("Pozdrav!!!"+ime);
         }
     }
 }
